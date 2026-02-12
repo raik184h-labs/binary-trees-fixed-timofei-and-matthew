@@ -1,26 +1,17 @@
 package edu.unl.raikes.BinarySearchTreeLab;
 
-/**
- * Represents a person with a NUID and name.
- */
+//TODO: ADD JAVADOC COMMENT
 public class Person implements Comparable<Person> {
     int key;
     String name;
 
-    /**
-	 * Creates a new person with the given NUID and name
-	 * @param NUID the NUID of the person
-	 * @param name the name of the person
-	 */
+    // TODO: ADD JAVADOC COMMENT
     Person(int NUID, String name) {
         this.key = NUID;
         this.name = name;
     }
 
-    /**
-	 * Returns a string representation of this person.
-	 * @return a string representation of this person.
-	 */
+    // TODO: ADD JAVADOC COMMENT
     public String toString() {
         return "NUID: " + this.key + "  Name: " + name;
     }

@@ -27,16 +27,7 @@ public class LabRunner {
         // add Kylie to the tree
         insertIntoBSTAndPrintResults(bst, new Person(777777777, "Kylie"));
 
-        //search for not existing node
-        searchInBSTAndPrintResults(bst, 666666666);
-
-        //delete non existing node
-        deleteFromBSTAndPrintResults(bst, 666666666);
-
         // add Connor to the tree
-        insertIntoBSTAndPrintResults(bst, new Person(666666666, "Connor"));
-
-        //adding already existing node
         insertIntoBSTAndPrintResults(bst, new Person(666666666, "Connor"));
 
         // find the person with NUID 111111111
